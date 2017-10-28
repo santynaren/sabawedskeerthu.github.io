@@ -219,9 +219,9 @@ body {
         width: 100%;
         height: 100%;
     }
-    #bottom_line {
-        visibility: hidden;
-    }
+   
+
+    
     #story_text {
         font-family: 'Clicker Script', cursive;
         text-align: center;

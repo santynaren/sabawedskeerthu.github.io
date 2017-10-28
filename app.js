@@ -6,7 +6,7 @@
     myVar = setTimeout(showPage, 3000);
 }
 function showPage() {
-  document.getElementById("loader").hide();
+  document.getElementById("alllove").hide();
   document.getElementById("content").show();
 }
 

@@ -3,7 +3,7 @@
 
   function myFunction() {
     
-    myVar = setTimeout(showPage, 3000);
+    var myVar = setTimeout(showPage, 3000);
 }
 function showPage() {
   document.getElementById("all").style.display = "none";

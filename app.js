@@ -1,15 +1,7 @@
   //Fire store part 
 
 
-  function myFunction() {
-    
-    var myVar = setTimeout(showPage, 3000);
-}
-function showPage() {
-  document.getElementById("all").style.display = "none";
-  document.getElementById("content").style.display = "block";
-}
-
+  
   var config = {
     apiKey: "AIzaSyAMBINMcRp7uLSbDA-hT3P2A6MWLbKRYso",
     authDomain: "wedding-cbec7.firebaseapp.com",

@@ -144,7 +144,7 @@ body {
     font-family: 'Clicker Script', cursive;
     text-align: center;
 }
-
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
 /* Loader CSS */
 #h1_id {
     position: absolute;

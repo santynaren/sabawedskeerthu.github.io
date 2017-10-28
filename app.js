@@ -30,7 +30,7 @@
     var namedisp = snap.child("name").val();
     var wishdisp = snap.child("wishcard").val();
 
-    $("#tab").append("<tr><td class='card'>" + wishdisp + "</td></tr>");
+    $("#tab").append("<tr><td class='card'>" + wishdisp + " - "+ namedisp +"</td></tr>");
 
 
   });

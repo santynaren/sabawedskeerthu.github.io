@@ -2,12 +2,12 @@
 
 
   function myFunction() {
-    document.getElementById("content").hide(); 
+    
     myVar = setTimeout(showPage, 3000);
 }
 function showPage() {
-  document.getElementById("all").hide();
-  document.getElementById("content").show();
+  document.getElementById("all").style.display = "none";
+  document.getElementById("content").style.display = "block";
 }
 
   var config = {

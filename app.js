@@ -30,6 +30,8 @@
       name: wishedperson_name
     }
     databaseref.push(data);
+    $("#wish").val("");
+    $("#wished_person").val("");
 
   });
 
@@ -62,6 +64,3 @@
 
 
 
-  jQuery(document).ready(function () {
-    jQuery('.scrollbar-inner').scrollbar();
-  });

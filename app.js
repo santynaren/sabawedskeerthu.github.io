@@ -39,7 +39,7 @@
     const wish_value = wish.value;
     const wishedperson_name = personname.value;
 
-    if(wish_value.val() =="" || wishedperson_name.val() =="")
+    if(wish_value =="" || wishedperson_name =="")
     {
       alert("Oops ! The wish seems to be empty ..  ");
     } else{

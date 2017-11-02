@@ -38,6 +38,12 @@
 
     const wish_value = wish.value;
     const wishedperson_name = personname.value;
+
+    if(wish_value.val() =="" || wishedperson_name.val() =="")
+    {
+      alert("Oops ! The wish seems to be empty ..  ");
+    } else{
+
     var data = {
       wishcard: wish_value,
       name: wishedperson_name
@@ -45,7 +51,7 @@
     databaseref.push(data);
     $("#wish").val("");
     $("#wished_person").val("");
-
+  }
   });
 
 
